@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,33 +16,10 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jg4-qB-n16">
-                                <rect key="frame" x="0.0" y="468" width="320" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u5v-pU-QTn" customClass="SeatView">
-                                <rect key="frame" x="0.0" y="64" width="320" height="404"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="jg4-qB-n16" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="5KW-CE-0sQ"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jg4-qB-n16" secondAttribute="bottom" id="EBt-ol-ok2"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="u5v-pU-QTn" secondAttribute="trailing" constant="-20" id="IZ5-dN-O8h"/>
-                            <constraint firstItem="u5v-pU-QTn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="JxV-hu-1FM"/>
-                            <constraint firstItem="u5v-pU-QTn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="faY-3I-2nq"/>
-                            <constraint firstItem="jg4-qB-n16" firstAttribute="top" secondItem="u5v-pU-QTn" secondAttribute="top" id="mCm-y9-mDT"/>
-                            <constraint firstItem="u5v-pU-QTn" firstAttribute="bottom" secondItem="jg4-qB-n16" secondAttribute="bottom" id="sWN-0c-DWU"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jg4-qB-n16" secondAttribute="trailing" constant="-20" id="twr-Yo-aUs"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o0E-vL-H6j"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="_seatView" destination="u5v-pU-QTn" id="896-WF-Ck1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

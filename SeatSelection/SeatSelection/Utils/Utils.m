@@ -39,4 +39,25 @@
 }
 
 
+#pragma mark ---动态获取Label的宽度
++(CGFloat)getLabelWidthByLabel:(UILabel *)lab
+{
+    lab.lineBreakMode = NSLineBreakByWordWrapping;
+    lab.numberOfLines = 1;
+    NSDictionary *attributes = @{NSFontAttributeName:lab.font};
+    CGSize size = [lab.text boundingRectWithSize:CGSizeMake(MAXFLOAT,lab.frame.size.height) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
+    return size.width;
+}
+#pragma mark ---动态获取Label的高度
+
++(CGFloat)getLabelHeightByLabel:(UILabel *)lab
+{
+    lab.lineBreakMode = NSLineBreakByWordWrapping;
+    lab.numberOfLines = 0;
+    NSDictionary *attributes = @{NSFontAttributeName:lab.font};
+    CGSize size = [lab.text boundingRectWithSize:CGSizeMake(lab.frame.size.width,MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:attributes context:nil].size;
+    return size.height;
+}
+
+
 @end

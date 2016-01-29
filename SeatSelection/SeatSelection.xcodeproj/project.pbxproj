@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9809EFEB1C5B19280086D742 /* SeatList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9809EFE91C5B19280086D742 /* SeatList.txt */; };
+		9809EFEC1C5B19280086D742 /* SoldSeats.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9809EFEA1C5B19280086D742 /* SoldSeats.txt */; };
 		98653AF11C58BAAA00D05A4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98653AF01C58BAAA00D05A4F /* main.m */; };
 		98653AF41C58BAAA00D05A4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98653AF31C58BAAA00D05A4F /* AppDelegate.m */; };
 		98653AF71C58BAAA00D05A4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98653AF61C58BAAA00D05A4F /* ViewController.m */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9809EFE91C5B19280086D742 /* SeatList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SeatList.txt; sourceTree = "<group>"; };
+		9809EFEA1C5B19280086D742 /* SoldSeats.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SoldSeats.txt; sourceTree = "<group>"; };
 		98653AEC1C58BAA900D05A4F /* SeatSelection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatSelection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98653AF01C58BAAA00D05A4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98653AF21C58BAAA00D05A4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 		98653B061C58BB3200D05A4F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9809EFE91C5B19280086D742 /* SeatList.txt */,
+				9809EFEA1C5B19280086D742 /* SoldSeats.txt */,
 				98653B071C58BB3200D05A4F /* Images */,
 			);
 			path = Resources;
@@ -228,10 +234,12 @@
 				98653AFF1C58BAAA00D05A4F /* LaunchScreen.storyboard in Resources */,
 				98653B131C58BB3200D05A4F /* screenBg@3x.png in Resources */,
 				98653B171C58BB3200D05A4F /* sold@3x.png in Resources */,
+				9809EFEB1C5B19280086D742 /* SeatList.txt in Resources */,
 				98653B121C58BB3200D05A4F /* screenBg@2x.png in Resources */,
 				98653B111C58BB3200D05A4F /* choosable@3x.png in Resources */,
 				98653B101C58BB3200D05A4F /* choosable@2x.png in Resources */,
 				98653B141C58BB3200D05A4F /* selected@2x.png in Resources */,
+				9809EFEC1C5B19280086D742 /* SoldSeats.txt in Resources */,
 				98653B161C58BB3200D05A4F /* sold@2x.png in Resources */,
 				98653B151C58BB3200D05A4F /* selected@3x.png in Resources */,
 				98653AFC1C58BAAA00D05A4F /* Assets.xcassets in Resources */,
@@ -400,6 +408,7 @@
 				98653B051C58BAAA00D05A4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

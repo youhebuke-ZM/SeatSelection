@@ -1,0 +1,1 @@
+{"code":1,"text":null,"field":null,"data":[{"seatCode":"2015072884982573","colNumber":"3","rowNumber":"1"},{"seatCode":"2015072800303868","colNumber":"4","rowNumber":"1"},{"seatCode":"2015072860524392","colNumber":"4","rowNumber":"3"},{"seatCode":"2015072835200491","colNumber":"5","rowNumber":"3"},{"seatCode":"2015072802095903","colNumber":"6","rowNumber":"3"}],"version":null}
