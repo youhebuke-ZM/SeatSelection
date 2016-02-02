@@ -236,7 +236,7 @@
     }
     
     NSLog(@"%@",_selectedBtnArr);
-}
+} 
 
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView{

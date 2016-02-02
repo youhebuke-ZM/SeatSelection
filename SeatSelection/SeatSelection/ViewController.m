@@ -229,7 +229,7 @@
                     __block SeatBtn *seatBtnLeft;
                     [curRowArr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                         SeatBtn *btn = (SeatBtn *)curRowArr[idx];
-                        if ([btn.colNum integerValue] == i) {
+                        if (btn.seat_Y == i) {
                             seatBtnLeft = btn;
                             *stop = YES;
                         }
@@ -257,7 +257,7 @@
                     __block SeatBtn *seatBtnRight;
                     [curRowArr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
                         SeatBtn *btn = (SeatBtn *)curRowArr[idx];
-                        if ([btn.colNum integerValue] == i) {
+                        if (btn.seat_Y == i) {
                             seatBtnRight = btn;
                             *stop = YES;
                         }
