@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SeatView.h"
 #import "Utils.h"
-//testGit
+
 #define MAX_X 9   //座位最大行
 #define MAX_Y 12  //座位最大列
 
